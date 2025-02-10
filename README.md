@@ -50,20 +50,24 @@ Open index.html in your browser.
 
 ## Screenshots
 The following is the view for the desktop:
+
 <img width="1679" alt="Screenshot 2025-02-10 at 14 32 02" src="https://github.com/user-attachments/assets/1c1ef8a7-497c-4020-9f96-e0c2b4b7f861" />
 
 
 The following is the view for tablets:
+
 <img width="853" alt="Screenshot 2025-02-10 at 14 31 53" src="https://github.com/user-attachments/assets/612ad015-5fbe-4621-97e6-2765707fab5d" />
 
 
 The following is the view for phones:
+
 <img width="333" alt="Screenshot 2025-02-10 at 14 32 19" src="https://github.com/user-attachments/assets/26bb6774-4be5-46da-9f29-a7f760b139e4" />
 
 
 ## Acknowledgements
 
  - [Background 1](https://pin.it/PE82Sk5hA): used for the desktop view's background
+   
  - [Background 2](https://pin.it/4iU0wp0FB): used for the tablet view's background
 
 - [Background 3](https://pin.it/71NwrWUqL): used for the phone view's background
