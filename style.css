@@ -1,0 +1,205 @@
+@font-face {
+    font-family: technologyFont;
+    src: url(technologyFont/Technology.ttf);
+}
+
+/*Styles for desktop*/
+@media only screen and (min-width: 1024px){
+    body{
+        background: url("background.jpeg");
+    }
+    
+    #time{
+        font-family: technologyFont;
+        font-size: 100px;
+        font-weight: bold;
+        color: #3C3542;
+    }
+    
+    .container{
+        margin: auto;
+        margin-top: 15%;
+        max-width: 400px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    }
+
+    .buttons{
+        margin-top: -90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .btn {
+        --btn-color: #3C3542 ;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background-color: var(--btn-bg);
+        color: var(--btn-color);
+        padding: 14px 22px;
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: system-ui;
+        border: 2px solid var(--btn-color);
+        transition: 100ms ease;
+        box-shadow: 5px 5px 0 0 var(--btn-color);
+    }
+
+    .btn:hover {
+    box-shadow: 2px 2px 0 0 var(--btn-color);
+    }
+    
+    .btn:active {
+    transition: 50ms ease;
+    box-shadow:  0 0 0 0 var(--btn-color);
+    }
+}
+
+
+/*Styles for ipad*/
+@media only screen and (min-width: 500px) and (max-width: 1024px){
+    body{
+        background: url("ipadBackground.jpeg");
+    }
+    
+    #time{
+        font-family: technologyFont;
+        font-size: 100px;
+        font-weight: bolder;
+        color: #000;
+    }
+    
+    .container{
+        margin: auto;
+        margin-top: 30%;
+        max-width: 330px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        text-align: center;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 0px 19px 5px rgba(225, 224, 255, 0.25);
+    }
+
+    .buttons{
+        margin-top: -90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .btn {
+        --btn-color: #000 ;
+        --btn-bg: #fff;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background-color: var(--btn-bg);
+        color: var(--btn-color);
+        padding: 14px 22px;
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: system-ui;
+        border: 2px solid var(--btn-color);
+        transition: 100ms ease;
+        box-shadow: 5px 5px 0 0 var(--btn-color);
+    }
+    
+    .btn:hover {
+    box-shadow: 2px 2px 0 0 var(--btn-color);
+    }
+    
+    .btn:active {
+    transition: 50ms ease;
+    box-shadow:  0 0 0 0 var(--btn-color);
+    }
+}
+
+/*Phone Background*/
+@media only screen and (max-width: 499px){
+    body{
+        background: url("phoneBackground.jpeg");
+        background-position: cover;
+    }
+    
+    #time{
+        font-family: technologyFont;
+        font-size: 90px;
+        color: #D5D0CA;
+    }
+    
+    
+    .container{
+        margin: auto; 
+        margin-top: 50%;
+        max-width: 330px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        text-align: center;
+        border-radius: 30px;
+        background-color: rgba(206, 184, 163, 0.1);
+        box-shadow: 0px 0px 19px 5px rgba(144, 111, 81, 0.19);
+    }
+
+    .buttons{
+        margin-top: -60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .btn {
+        --btn-color: #000 ;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background-color: var(--btn-bg);
+        color: var(--btn-color);
+        padding: 14px 22px;
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: system-ui;
+        border: 2px solid var(--btn-color);
+        transition: 100ms ease;
+        box-shadow: 5px 5px 0 0 var(--btn-color);
+    }
+    
+    .btn:hover {
+    box-shadow: 2px 2px 0 0 var(--btn-color);
+    }
+    
+    .btn:active {
+    transition: 50ms ease;
+    box-shadow:  0 0 0 0 var(--btn-color);
+    }
+
+}
